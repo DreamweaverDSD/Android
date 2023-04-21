@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Text_userinfo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Text_userinfo_Name"
+        android:textSize="@dimen/text_of_top_textview" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/table_v_divider"
+            android:stretchColumns="0"
+            android:layout_marginTop="@dimen/margin_between_top_and_second"
+            android:orientation="vertical"
+            android:showDividers="middle|beginning|end">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Text_userinfo_username_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Text_userinfo_username_left"
+                    android:textSize="@dimen/text_of_textview" />
+
+                <TextView
+                    android:id="@+id/Text_userinfo_username_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Text_userinfo_username_right"
+                    android:textSize="@dimen/text_of_textview" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Text_userinfo_birthday_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Text_userinfo_birthday_left"
+                    android:textSize="@dimen/text_of_textview" />
+
+                <TextView
+                    android:id="@+id/Text_userinfo_birthday_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Text_userinfo_birthday_right"
+                    android:textSize="@dimen/text_of_textview" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Text_userinfo_phonenumber_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Text_userinfo_phonenumber_left"
+                    android:textSize="@dimen/text_of_textview" />
+
+                <TextView
+                    android:id="@+id/Text_userinfo_phonenumber_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Text_userinfo_phonenumber_right"
+                    android:textSize="@dimen/text_of_textview" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Text_userinfo_email_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Text_userinfo_email_left"
+                    android:textSize="@dimen/text_of_textview" />
+
+                <TextView
+                    android:id="@+id/Text_userinfo_email_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Text_userinfo_email_right"
+                    android:textSize="@dimen/text_of_textview" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/Button_userinfo_SetUserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:backgroundTint="@color/Button_UserInfo"
+        android:text="@string/Button_userinfo_SetUserInfo"
+        android:textSize="@dimen/text_of_button" />
+
+    <Button
+        android:backgroundTint="@color/Button_UserInfo"
+        android:id="@+id/Button_userinfo_BackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:text="@string/Button_userinfo_BackToMain"
+        android:textSize="@dimen/text_of_button" />
+
+
+</LinearLayout>
