@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text_unbindequip_Name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_of_top_textview"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Text_unbindequip_Name"
+        android:textSize="@dimen/text_of_top_textview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Text_unbindequip_Notion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_top_and_second"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:text="@string/Text_unbindequip_Notion"
+        android:textSize="@dimen/text_of_notion" />
+
+    <TextView
+        android:id="@+id/Text_unbindequip_Error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_top_and_second"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:textColor="@color/red"
+        android:textSize="@dimen/text_of_notion" />
+
+    <Button
+        android:backgroundTint="@color/Button_UnbindEquip"
+        android:id="@+id/Button_unbindequip_Submit"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:text="@string/Button_unbindequip_Submit"
+        android:textSize="@dimen/text_of_button"/>
+
+    <Button
+        android:backgroundTint="@color/Button_UnbindEquip"
+        android:id="@+id/Button_unbindequip_BackToEquip"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:text="@string/Button_unbindequip_BackToEquip"
+        android:textSize="@dimen/text_of_button" />
+
+</LinearLayout>

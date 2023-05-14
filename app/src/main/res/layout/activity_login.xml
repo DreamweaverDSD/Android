@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Text_login_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Text_login_Name"
+        android:textSize="@dimen/text_of_top_textview" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/table_v_divider"
+            android:stretchColumns="0"
+            android:layout_marginTop="@dimen/margin_between_top_and_second"
+            android:orientation="vertical"
+            android:showDividers="middle|beginning|end">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Text_login_UserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/Text_login_UserName"
+                    android:textSize="@dimen/text_of_textview"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/EditText_login_UserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:textSize="@dimen/text_of_textview" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Text_login_Password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/Text_login_Password"
+                    android:textSize="@dimen/text_of_textview"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/EditText_login_Password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:textSize="@dimen/text_of_textview" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/Text_login_Error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_top_and_second"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:textColor="@color/red"
+        android:textSize="@dimen/text_of_notion" />
+
+    <Button
+        android:id="@+id/Button_login_Commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:backgroundTint="@color/Button_UserInfo"
+        android:text="@string/Button_register_Commit"
+        android:textSize="@dimen/text_of_button" />
+
+    <Button
+        android:id="@+id/Button_login_Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:backgroundTint="@color/Button_UserInfo"
+        android:text="@string/Button_login_Register"
+        android:textSize="@dimen/text_of_button" />
+
+</LinearLayout>

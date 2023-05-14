@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text_collectdata_Name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_of_top_textview"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Text_collectdata_Name"
+        android:textSize="@dimen/text_of_top_textview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Text_collectdata_ChooseDataType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/Text_collectdata_ChooseDataType"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_top_and_second"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:textSize="@dimen/text_of_notion" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup_collectdata_DataType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right">
+
+        <RadioButton
+            android:id="@+id/radio_collectdata_data0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_data_0"/>
+
+        <RadioButton
+            android:id="@+id/radio_collectdata_data1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_data_1"/>
+
+        <RadioButton
+            android:id="@+id/radio_collectdata_data2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_data_2"/>
+
+        <RadioButton
+            android:id="@+id/radio_collectdata_data3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_data_3"/>
+
+        <RadioButton
+            android:id="@+id/radio_collectdata_data4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_data_4"/>
+
+        <RadioButton
+            android:id="@+id/radio_collectdata_data5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_data_5"/>
+
+        <RadioButton
+            android:id="@+id/radio_collectdata_data6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_data_6"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Text_collectdata_Error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:textColor="@color/red"
+        android:textSize="@dimen/text_of_notion" />
+
+    <TextView
+        android:id="@+id/Text_collectdata_Notion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/text_of_notion" />
+
+    <Button
+        android:backgroundTint="@color/Button_CollectData"
+        android:id="@+id/Button_collectdata_Start"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:text="@string/Button_collectdata_Start"
+        android:textSize="@dimen/text_of_button" />
+
+    <Button
+        android:backgroundTint="@color/Button_CollectData"
+        android:id="@+id/Button_collectdata_End"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:text="@string/Button_collectdata_End"
+        android:textSize="@dimen/text_of_button" />
+
+    <Button
+        android:backgroundTint="@color/Button_CollectData"
+        android:id="@+id/Button_collectdata_BackToEquip"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_against_left"
+        android:layout_marginTop="@dimen/margin_between_two_button"
+        android:layout_marginEnd="@dimen/margin_against_right"
+        android:text="@string/Button_collectdata_BackToEquip"
+        android:textSize="@dimen/text_of_button" />
+
+</LinearLayout>

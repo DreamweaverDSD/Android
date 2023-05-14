@@ -1,0 +1,238 @@
+<resources>
+    <string name = "app_name">DSD_Android</string>
+    <!--
+    Below are context of textbox and buttons.
+    They are sorted from top to below.
+    The name of string should be named by
+        (Type Of Components)_(Name of Layout File)_(Name of Components).
+    The first letter of TypeOfComponents should use its uppercase.
+    Due to uppercase cannot appear in file name in layout, the first letter of NameofLayoutFlie
+        don't use its uppercase.
+    The first letter of all words in NameofComponents should use its uppercase.
+    For example,
+        Text_main_name
+    means the string will be used to be the context of a textbox in activity_main.xml,
+    and the textbox will show the name of the form.
+    -->
+    <!--
+    Below are strings used on activity_register.xml.
+    -->
+    <string name = "Text_register_Name">Register</string>
+    <string name = "Text_register_UserName">User Name</string>
+    <string name = "Text_register_Password">Password</string>
+    <string name = "Text_register_ReinputPassword">Repeat\npassword</string>
+    <string name = "Text_register_Birthday">Birthday</string>
+    <string name = "Text_register_PhoneNumber">Phone number</string>
+    <string name = "Text_register_Email">Email address</string>
+    <string name = "Button_register_Commit">Submit</string>
+    <string name = "Button_register_Cancel">Cancel</string>
+    <!--
+    Below are strings used on activity_login.xml.
+    -->
+    <string name = "Text_login_Name">Login</string>
+    <string name = "Text_login_UserName">User Name</string>
+    <string name = "Text_login_Password">Password</string>
+    <string name = "Button_login_Commit">Submit</string>
+    <string name = "Button_login_Register">Register</string>
+    <!--
+    Below are strings used on activity_main.xml.
+    -->
+    <string name = "Text_main_Name">DSD Android APP</string>
+    <string name = "Button_main_Data">Data</string>
+    <string name = "Button_main_Model">Model</string>
+    <string name = "Button_main_GetUserGuide">User Guide</string>
+    <string name = "Button_main_UserInfo">User Information</string>
+    <string name = "Button_main_Equipments">Equipment</string>
+    <string name = "Text_main_Copyright">By DreamWeaver Group \n version minus 1.0 \n 2023.04</string>
+    <!--
+    Below are strings used on activity_equipments.xml.
+    -->
+    <string name = "Text_equipments_Name">Equipments</string>
+    <string name = "Button_equipments_ConnectEquip">Bind a equipment</string>
+    <string name = "Button_equipments_GetEquipInfo">Get equipment information</string>
+    <string name = "Button_equipments_GetEquipStatus">Get equipment status</string>
+    <string name = "Button_equipments_CollectData">Collect Data</string>
+    <string name = "Button_equipments_UnbindEquip">Unbind the Equipment</string>
+    <string name = "Button_equipments_BackToMain">Back to main menu</string>
+    <!--
+    Below are strings used on activity_data.xml.
+    -->
+    <string name = "Text_data_Name">Data management</string>
+    <string name = "Button_data_GetDataList">Get data list</string>
+    <string name = "Button_data_DiscardData">Discard data</string>
+    <string name = "Button_data_ChangeDataLabel">Change the label of data</string>
+    <string name = "Button_data_BackToMain">Back to main menu</string>
+    <!--
+    Below are strings used on activity_model.xml.
+    -->
+    <string name = "Text_model_Name">Model and Predict</string>
+    <string name = "Button_model_ShowModelInfo">Show the information of model</string>
+    <string name = "Button_model_ResetModel">Reset model</string>
+    <string name = "Button_model_PredUserMotion">Predict User motion</string>
+    <string name = "Button_model_BackToMain">Back to main menu</string>
+    <!--
+    Below are strings used on activity_userinfo.xml.
+    Written by Donald.
+    -->
+    <string name = "Text_userinfo_Name">User information</string>
+    <string name = "Button_userinfo_SetUserInfo">Set user information</string>>
+    <string name = "Button_userinfo_BackToMain">Back to main menu</string>
+    <!--
+    Below are strings used on activity_getuserguide.xml.
+    -->
+    <string name = "Button_getuserguide_BackToMain">Back to main menu</string>
+    <!--
+    Below are strings used on activity_getdatalist.xml.
+    -->
+    <string name = "Button_getdatalist_BackToData">Back</string>
+    <string name = "Text_getdatalist_Name">Data List</string>
+    <!--
+    Below are strings used on activity_discarddata.xml.
+    -->
+    <string name = "Text_discarddata_Name">Discard Data</string>
+    <string name = "Text_discarddata_Dialog">Are you sure you want to discard data number </string>
+    <string name = "Button_discarddata_BackToData">Back</string>
+    <string name = "Dialog_discarddata_true">Submit</string>
+    <string name = "Dialog_discarddata_false">Cancel</string>
+    <!--
+    Below are strings used on activity_changedatalabel.xml.
+    -->
+    <string name = "Text_changedatalabel_Name">Change the label of data</string>
+    <string name = "Text_changedatalabel_Dialog">Choose type you want to change and submit</string>
+    <string name = "Button_changedatalabel_BackToData">Back</string>
+    <!--
+    Below are strings used on activity_resetmodel.xml.
+    -->
+    <string name = "Text_resetmodel_Name">Reset model</string>
+    <string name = "Text_resetmodel_Notion">Are you sure you want to initialize the model?</string>
+    <string name = "Button_resetmodel_Submit">Submit</string>
+    <string name = "Button_resetmodel_BackToModel">Back</string>
+    <!--
+    Below are strings used on activity_showmodelinfo.xml.
+    -->
+    <string name = "Text_showmodelinfo_Name">Model information</string>
+    <string name = "Text_showmodelinfo_info1_left">Model type</string>
+    <string name = "Text_showmodelinfo_info2_left">Model Accuracy</string>
+    <string name = "Text_showmodelinfo_wait_right">searching...</string>
+    <string name = "Button_showmodelinfo_BackToModel">Back</string>
+    <!--
+    Below are strings used on activity_predusermotion.xml.
+    -->
+    <string name = "Button_predusermotion_BackToModel">End and return</string>
+    <!--
+    Below are strings used on activity_connectequip.xml.
+    -->
+    <string name = "Button_connectequip_BackToEquip">Back</string>
+    <string name = "Button_connectequip_Connect">Connect</string>
+    <string name = "Text_connectequip_Name">Connect to Equipment</string>
+    <string name = "Text_connectequip_InputIP">Please input the IP address:</string>
+    <string name = "Text_connectequip_InputPort">Please input the Port:</string>
+    <!--
+    Below are strings used on activity_getequipinfo.xml.
+    -->
+    <string name = "Button_getequipinfo_BackToEquip">Back</string>
+    <string name = "Text_getequipinfo_Name">Get equipment information</string>
+    <string name = "Text_getequipinfo_info1_left">Sensor1 name</string>
+    <string name = "Text_getequipinfo_info2_left">Sensor1 MAC address</string>
+    <string name = "Text_getequipinfo_info3_left">Sensor2 name</string>
+    <string name = "Text_getequipinfo_info4_left">Sensor2 MAC address</string>
+    <string name = "Text_getequipinfo_info5_left">Sensor3 name</string>
+    <string name = "Text_getequipinfo_info6_left">Sensor3 MAC address</string>
+    <string name = "Text_getequipinfo_info7_left">Sensor4 name</string>
+    <string name = "Text_getequipinfo_info8_left">Sensor4 MAC address</string>
+    <string name = "Text_getequipinfo_info9_left">Sensor5 name</string>
+    <string name = "Text_getequipinfo_info10_left">Sensor5 MAC address</string>
+    <string name = "Text_getequipinfo_info11_left">Sensor6 name</string>
+    <string name = "Text_getequipinfo_info12_left">Sensor6 MAC address</string>
+    <string name = "Text_getequipinfo_wait_right">Wait a moment. Soon...</string>
+    <!--
+    Below are strings used on activity_getequipstatus.xml.
+    -->
+    <string name = "Button_getequipstatus_BackToEquip">Back</string>
+    <string name = "Text_getequipstatus_Name">Get equipment status</string>
+    <string name = "Text_getequipstatus_status1_left">Sensor1 connection</string>
+    <string name = "Text_getequipstatus_status2_left">Sensor1 Battery</string>
+    <string name = "Text_getequipstatus_status3_left">Sensor2 connection</string>
+    <string name = "Text_getequipstatus_status4_left">Sensor2 Battery</string>
+    <string name = "Text_getequipstatus_status5_left">Sensor3 connection</string>
+    <string name = "Text_getequipstatus_status6_left">Sensor3 Battery</string>
+    <string name = "Text_getequipstatus_status7_left">Sensor4 connection</string>
+    <string name = "Text_getequipstatus_status8_left">Sensor4 Battery</string>
+    <string name = "Text_getequipstatus_status9_left">Sensor5 connection</string>
+    <string name = "Text_getequipstatus_status10_left">Sensor5 Battery</string>
+    <string name = "Text_getequipstatus_status11_left">Sensor6 connection</string>
+    <string name = "Text_getequipstatus_status12_left">Sensor6 Battery</string>
+    <string name = "Text_getequipstatus_wait_right">Searching...</string>
+    <!--
+    Below are strings used on activity_collectdata.xml.
+    -->
+    <string name = "Text_collectdata_Name">CollectData</string>
+    <string name = "Text_collectdata_ChooseDataType">Choose the type of data you will collect</string>
+    <string name = "Button_collectdata_BackToEquip">Back</string>
+    <string name = "Button_collectdata_Start">Start</string>
+    <string name = "Button_collectdata_End">End</string>
+    <!--
+    Below are strings used on activity_unbindequip.xml.
+    -->
+    <string name = "Text_unbindequip_Name">Reset model</string>
+    <string name = "Text_unbindequip_Notion">Are you sure you want to unbind the equipment?</string>
+    <string name = "Button_unbindequip_Submit">Submit</string>
+    <string name = "Button_unbindequip_BackToEquip">Back</string>
+    <!--
+    Below are strings used on activity_setuserinfo.xml.
+    -->
+    <string name = "Text_setuserinfo_Name">Set User Information</string>
+    <string name = "Button_setuserinfo_Commit">Commit</string>
+    <string name = "Button_setuserinfo_Cancel">Cancel</string>
+    <string name = "Text_userinfo_username_left">User name</string>
+    <string name = "Text_userinfo_username_right">Searching…</string>
+    <string name = "Text_userinfo_birthday_left">Birthday</string>
+    <string name = "Text_userinfo_birthday_right">Searching…</string>
+    <string name = "Text_userinfo_phonenumber_left">Phone number</string>
+    <string name = "Text_userinfo_phonenumber_right">Searching…</string>
+    <string name = "Text_userinfo_email_left">Email address</string>
+    <string name = "Text_userinfo_email_right">Searching…</string>
+    <!--
+    Below are string-array version of strings used on select type of data.
+    It will be used on collectdata and changedatalabel.
+    -->
+    <string-array name = "type_of_data">
+        <item>sit</item>
+        <item>stand</item>
+        <item>Go straight</item>
+        <item>Go uphill/upstairs</item>
+        <item>Go downhill/downstairs</item>
+        <item>Go left</item>
+        <item>Go right</item>
+    </string-array>
+    <!--
+    Below are string version ofstrings used on select type of data.
+    It will be used on collectdata and changedatalabel.
+    -->
+    <string name = 'type_of_data_0'>sit</string>
+    <string name = 'type_of_data_1'>stand</string>
+    <string name = 'type_of_data_2'>Go straight</string>
+    <string name = 'type_of_data_3'>Go uphill/upstairs</string>
+    <string name = 'type_of_data_4'>Go downhill/downstairs</string>
+    <string name = 'type_of_data_5'>Go left</string>
+    <string name = 'type_of_data_6'>Go right</string>
+    <!--
+    Below are strings used on activity_getuserguide.xml.
+    -->
+    <string name="Text_getuserguide_Content">
+        \nThis auxiliary interaction is a standalone program.
+        \nWhen the user uses it, they need to log in to enjoy the services provided by the auxiliary interaction.
+        \nIf the user does not have an account, they need to register an account by jumping to the registration interface.
+        \nWhen they complete registration then they can use this auxiliary interaction.
+        \n
+        \nAfter the user logs in, they enter the interface which the user can see all the bound devices.
+        \nIf the user need to do something with the sensor, they can click the Equipment button and jump to the Equipment interface.
+        \nWhen they want to add a new device, they can click the Add button and input the ID and port of the equipment they wanto to connect with, then the app will automatically connect to the equipment through server. When the above operation is completed, the user can see the newly added device on the corresponding interface. Devices that have already been added can be clicked on the corresponding button to jump to the interface of the corresponding device details, where you can view the device information. If they dont need the device anymore, they can click the Unbind button to unbind the device.
+        \n
+        \nUsers are able to collect their data after clicking the Collect Data button. Through the Start Acquisition button, the user can make the device start collecting data, at this time the interface refreshes, the Start Acquisition button changes to Stop Acquisition button. When the Stop Acquisition  button is pressed, a new window is created asking the label of data and whether to upload the collected data.
+        \n
+        \nFor the collected data, users can go to the data management interface to view, delete or modify the data. Whats more, when they need to predict their behaviors, they can click the PredictionModel button to the corresponding interface. They can train the model with their own data, reset the model and get the information about the model. There are two types of prediction. One is PredUserMotion_Onetime that only predict the users motion next step, the other is PredUserMotion_Sync that predict the users motion in the next period of time.
+        \n
+        \nUsers can view and modify personal information by going to the personal information interface through the personal information button in the menu.  Users also can view the help Information window which displays guidelines for using the interactive system.
+    </string>
+</resources>
